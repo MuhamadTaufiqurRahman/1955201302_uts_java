@@ -24,7 +24,7 @@ public class array_satu_dimensi {
             System.out.println(NoAbsen[i]);
             }
         
-        String CariNo = JOptionPane.showInputDialog(null, "Cari Nama Siswa Berdasarkan Nomor Absen");
+        String CariNo = JOptionPane.showInputDialog(null, "Cari Nama Siswa Berdasarkan Nama");
         
         for (int i = 1; i<NoAbsen.length; i++){
              if (NoAbsen[i].equals(CariNo)){
